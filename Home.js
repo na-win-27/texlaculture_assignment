@@ -9,6 +9,7 @@ import { ScrollView, SafeAreaView } from "react-native";
 import SearchBar from "./components/SearchBar";
 import Announcements from "./components/Announcements";
 import Comp from "./components/Comp";
+import Reminder from "./components/Reminder";
 
 const config = {
   useSystemColorMode: false,
@@ -28,6 +29,7 @@ const Home = () => {
               <SearchBar />
               <Comp />
             </Center>
+            <Reminder/>
             <Announcements />
             <Myteam />
             <QuickLinks />

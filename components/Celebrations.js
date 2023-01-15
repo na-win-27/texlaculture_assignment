@@ -16,11 +16,10 @@ const Celebrations = () => {
     >
       <Flex direction="column">
         <Text bold>Celebrations </Text>
-        <CelebItem/>
-        <CelebItem/>
-        <CelebItem/>
-        <CelebItem/>
-        <CelebItem/>
+        <CelebItem color="green" event="Birthday" name="Shubam"/>
+        <CelebItem color="blue" event="Marriage Anniversery" name="Yash"/>
+        <CelebItem color="purple" event="Work Anniversery" name="Riku"/>
+        <CelebItem color="orange" event="Kid's Birthday" name="Priyank"/>
       </Flex>
     </Box>
   );

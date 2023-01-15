@@ -18,8 +18,11 @@ const MyTeam=()=>{
                   <Text bold>My Team</Text>
                   <Text color="green.600" underline>View All</Text>
                 </Flex>
-                <TeamMember/>
-                <TeamMember/>
+                <TeamMember color="red" name="Rashmi" role="Trainee"/>
+                <TeamMember color="purple"   name="Manisha" role="HR"/>
+                <TeamMember color="green"  name="Abishek" role="Developer"/>
+                <TeamMember color="purple"  name="Aditya" role="Trainee"/>
+                <TeamMember color="orange"  name="Neeraj" role="HR"/>
           </Flex>
         </Box>
   );

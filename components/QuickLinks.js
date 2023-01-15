@@ -17,9 +17,9 @@ const QuickLinks = () => {
       <Flex direction="column">
         <Text bold>Quick Links</Text>
         <Flex direction="row">
-          <TapLink />
-          <TapLink />
-          <TapLink />
+          <TapLink name="Holiday Calendar" />
+          <TapLink name="Leave Policy" />
+          <TapLink name="Payroll Manual" />
         </Flex>
       </Flex>
     </Box>

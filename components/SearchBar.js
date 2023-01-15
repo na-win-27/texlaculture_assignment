@@ -1,6 +1,7 @@
 import React from "react";
 import { Spacer, Box, Input, Icon } from "native-base";
 import { MaterialIcons } from "@expo/vector-icons";
+import {TouchableOpacity} from "react-native"
 const SearchBar = () => {
   return (
     <Box
@@ -27,7 +28,9 @@ const SearchBar = () => {
         placeholder="Search"
       />
       <Spacer />
+      <TouchableOpacity>
       <Icon color="green.600" as={<MaterialIcons name="message" />} size={9} />
+      </TouchableOpacity>
     </Box>
   );
 };

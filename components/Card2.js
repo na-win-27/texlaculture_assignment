@@ -6,8 +6,7 @@ import {
   Image,
 } from "native-base";
 
-import { ScrollView, SafeAreaView } from "react-native";
-const Card2 = () => {
+const Card2 = (props) => {
   return (
     <Flex
     rounded="lg"
@@ -17,11 +16,11 @@ const Card2 = () => {
     justify="center"
     h="150px"
     w="100px"
-    bg="yellow.100"
-    borderColor="yellow.300"
+    bg={`${props.color}.100`}
+    borderColor={`${props.color}.300`}
     borderWidth="1"
   >
-    <Avatar bg="yellow.200" size="lg">
+    <Avatar bg={`${props.color}.300`} size="lg">
       <Image
         size={50}
         borderRadius={30}
@@ -31,9 +30,9 @@ const Card2 = () => {
         alt="Alternate Text"
       />
     </Avatar>
-    <Text>Sahil</Text>
-    <Text>UX designer</Text>
-    <Text>Joined Today</Text>
+    <Text color={`${props.color}.400`}>{props.name}</Text>
+    <Text>{props.role}</Text>
+    <Text>{`Joined ${props.joined}`}</Text>
   </Flex>
   );
 };

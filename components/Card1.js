@@ -1,21 +1,24 @@
 import { Text, Center, Icon, Flex } from "native-base";
 import { ScrollView } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons";
+import { FontAwesome } from "@expo/vector-icons";
 
-const Card1 = () => {
+const Card1 = (props) => {
+    
   return (
     <Flex
       mx={5}
       rounded="lg"
+      borderRadius={15}
       direction="row"
       justify="space-between"
-      bg="amber.400"
+      bg={`${props.color}.200`}
       p={2}
     >
       <Icon
         mx={2}
-        bg="orange.300"
-        as={<MaterialIcons name="search" />}
+        color={`${props.color}.600`}
+        bg={`${props.color1}.200`}
+        as={<FontAwesome name={props.icon} />}
         size={10}
       />
 

@@ -16,7 +16,7 @@ export default function App() {
         <Tab.Navigator  screenOptions={{
        headerShown: false
     }}>
-      <Tab.Screen  name="Home" component={Home} />
+      <Tab.Screen   name="Home" component={Home} />
       <Tab.Screen name="Settings" component={Home} />
     </Tab.Navigator>
     </NavigationContainer>

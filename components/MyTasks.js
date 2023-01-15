@@ -16,7 +16,11 @@ const MyTasks = () => {
     >
       <Flex direction="column">
         <Text bold>My Tasks </Text>
-       <TaskItem/>
+       <TaskItem name="Attendence" score={17} color="purple"/>
+       <TaskItem name="Leave" score={8} color="blue"/>
+       <TaskItem name="Job Offers" score={11} color="pink"/>
+       <TaskItem name="InterView Schedule" score={4} color="yellow"/>
+
        
       </Flex>
     </Box>

@@ -24,10 +24,10 @@ const Announcements=()=>{
       >
         <Text>Welcome</Text>
         <ScrollView horizontal>
-         <Card2/>
-         <Card2/>
-         <Card2/>
-         <Card2/>
+         <Card2 color="yellow" name="Sahil" role="UX Designer" joined="today"/>
+         <Card2 color="blue" name="Megha" role="UX Designer" joined="today"/>
+         <Card2 color="pink" name="Ravi" role="UX Designer" joined="today"/>
+         <Card2 color="green" name="Navin" role="FrontEnd" joined="1 Year"/>
         </ScrollView>
       </Flex>
   );
